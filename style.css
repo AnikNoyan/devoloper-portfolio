@@ -1,17 +1,22 @@
 body {
     font-family: 'Roboto Slab', serif;
+    margin: 0;
 }
 
 h1 {
     font-size: 50px;
+}
+h2{
+    font-size:40px ;
 }
 
 .orange {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .half-width {
@@ -30,4 +35,28 @@ section {
     color: wheat;
     font: 800;
     border-radius: 5px;
+}
+.top-banner{
+    background-image: url(banner\ \(2\).jpg);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(banner2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.orange-color{
+    color: orange;
+}
+.experience-item{
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px   gray;
+    border-left: 7px solid blue;
+}
+#full-stack-developer{
+    border-left: 7px solid tomato;
 }
